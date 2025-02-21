@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle & Save</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Bundle & Save</h2>
+        <form id="bundleForm">
+            <!-- 1 Pair Option -->
+            <div class="bundle-option" data-pairs="1">
+                <input type="radio" name="bundle" id="bundle1" value="195">
+                <label for="bundle1">
+                    <span>1 Pair</span>
+                    <span class="price">INR 400.00</span>
+                    <span class="discount">50% OFF</span>
+                </label>
+                <div class="size-color-selector hidden">
+                    <label>Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <label>Colour:</label>
+                    <select>
+                        <option>Black</option>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!-- 2 Pair Option -->
+            <div class="bundle-option" data-pairs="2">
+                <input type="radio" name="bundle" id="bundle2" value="345">
+                <label for="bundle2">
+                    <span>2 Pair</span>
+                    <span class="price"><s>INR 990.00</s> INR 594.00</span>
+                    <span class="discount popular">40% OFF</span>
+                </label>
+                <div class="size-color-selector hidden">
+                    <label>#1 Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <label>Colour:</label>
+                    <select>
+                        <option>Black</option>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                    
+                    <label>#2 Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <label>Colour:</label>
+                    <select>
+                        <option>Black</option>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- 3 Pair Option -->
+            <div class="bundle-option" data-pairs="3">
+                <input type="radio" name="bundle" id="bundle3" value="528">
+                <label for="bundle3">
+                    <span>3 Pair</span>
+                    <span class="price">INR 1280.00</span>
+                    <span class="discount">60% OFF</span>
+                </label>
+                <div class="size-color-selector hidden">
+                    <label>#1 Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <label>Colour:</label>
+                    <select>
+                        <option>Black</option>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                    
+                    <label>#2 Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <label>Colour:</label>
+                    <select>
+                        <option>Black</option>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+
+                    <label>#3 Size:</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <label>Colour:</label>
+                    <select>
+                        <option>Black</option>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </div>
+            </div>
+
+            <p class="shipping">Free Shipping</p>
+            <p class="total">Total: <strong id="totalPrice">INR 0.00</strong></p>
+            <button type="button" id="addToCart">+ Add to Cart</button>
+			<p> Designed By Gautam Gaur </p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
